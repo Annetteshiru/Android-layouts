@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".Androidlayout">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="261dp"
+        android:layout_height="74dp"
+        android:text="LOG IN"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="473dp"
+        android:layout_height="69dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:background="@color/white"
+        android:text="E-mail adress"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="468dp"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@color/white"
+        android:text="Password"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="473dp"
+        android:layout_height="92dp"
+        android:text="LOGIN ME"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="476dp"
+        android:layout_height="86dp"
+        android:text="SIGN UP"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="488dp"
+        android:layout_height="93dp"
+        android:text="FORGOT PASSWORD?"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
